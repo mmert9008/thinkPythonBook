@@ -1,0 +1,42 @@
+def draw_grid() -> None:
+    print("+ - - - - + - - - - +")
+    print("|         |         |")
+    print("|         |         |")
+    print("|         |         |")
+    print("|         |         |")
+    print("+ - - - - + - - - - +")
+    print("|         |         |")
+    print("|         |         |")
+    print("|         |         |")
+    print("|         |         |")
+    print("+ - - - - + - - - - +")
+
+
+def draw_double_grid() -> None:
+    print("+ - - - - + - - - - + - - - - + - - - - +")
+    print("|         |         |         |         |")
+    print("|         |         |         |         |")
+    print("|         |         |         |         |")
+    print("|         |         |         |         |")
+    print("+ - - - - + - - - - + - - - - + - - - - +")
+    print("|         |         |         |         |")
+    print("|         |         |         |         |")
+    print("|         |         |         |         |")
+    print("|         |         |         |         |")
+    print("+ - - - - + - - - - + - - - - + - - - - +")
+    print("|         |         |         |         |")
+    print("|         |         |         |         |")
+    print("|         |         |         |         |")
+    print("|         |         |         |         |")
+    print("+ - - - - + - - - - + - - - - + - - - - +")
+    print("|         |         |         |         |")
+    print("|         |         |         |         |")
+    print("|         |         |         |         |")
+    print("|         |         |         |         |")
+    print("+ - - - - + - - - - + - - - - + - - - - +")
+
+
+if __name__ == "__main__":
+    draw_grid()
+    print()
+    draw_double_grid()
